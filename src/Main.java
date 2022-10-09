@@ -1,16 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        // Задание 1
-        int i = 1;
-        int salary = 15_000;
-        int total = 0;
-        while (total <= 2_459_000) {
-            total = total + total / 100;
-            total = total + salary;
-
-            System.out.println("Месяц " + i + ", сумма накопление " + total + " рублей");
-            i++;
-
+        // Задание 4
+        int sum = 15000;
+        int monthnum = 1;
+        while (sum<=12_000_000) {
+            sum *= 1.07;
+            System.out.println("Месяц " + monthnum + ", сумма накоплений составляет " + sum); monthnum ++;
         }
     }
 }
+
+
