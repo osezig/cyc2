@@ -1,16 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        // Задание 8
-        int currentYear = 2022;
-        int beginning = currentYear - 200;
-        int ending = currentYear + 100;
-        for (int i = beginning; i < ending; ++i) {
-            if (i % 79 == 0) {
-                System.out.println(i);
-            }
+        // Задание 9
+        int i = 1;
+        for (; i <= 10; i++) {
+            System.out.println("2*" + i + " = " + 2 * i);
         }
     }
 }
+
 
 
 
