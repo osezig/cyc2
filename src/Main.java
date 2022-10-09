@@ -1,12 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        // Задание 5
-        int sum = 15000;
-        for (int i = 1; i < 9 * 12; i += 6) {
-            int sumBefore = sum;
-                sum *= 1 + 0.07 * 6;
-                int ss6 = sum - sumBefore;
-                System.out.println("Месяц " + i + ", сумма накоплений " +  ss6);
+        // Задание 7
+        int firstFriday = 4;
+        for (int currentFriday = firstFriday; currentFriday <= 31; currentFriday += 7) {
+                System.out.println("Сегодня пятница, " + currentFriday + "-ое число " + "Необходимо подготовить отчет.");
             }
             }
         }
